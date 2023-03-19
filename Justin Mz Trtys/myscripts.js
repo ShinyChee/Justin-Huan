@@ -21,6 +21,9 @@ function change_picture() {
             break;
         default:
             wechseln("../Bilder/BasketBall.png")
+            document.getElementById("Kobe").style.visibility = "hidden";
+            document.getElementById("LeBron").style.visibility = "hidden";
+            document.getElementById("Nowitzki").style.visibility = "hidden";
     }
     document.getElementById('list').value;
 
@@ -33,8 +36,4 @@ function wechseln(source) {
 
 function go_somewhere(destination) {
     window.location.href = destination;
-}
-
-function refresh() {
-
 }

@@ -50,3 +50,8 @@ ul{
 .Stats{
     visibility: hidden;
 }
+.video{
+    position: absolute;
+    left: 20vw;
+    top: 6vw;
+}
