@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Das ist Justins Webseite</title>
+  <link rel="stylesheet" href="../stylesheet.css">
+  <script type="text/javascript" src="../myscripts.js"></script>
+
+</head>
+
+<nav class="navbar">
+
+  <button class="startseite_btn btn" onclick='go_somewhere("./view.html")'>Startseite</button>
+  <button class="andereseite_btn btn" onclick="go_somewhere('./View2.html')">Zur anderen Seite</button>
+
+</nav>
+
+<body>
+
+    <select id="list" class="list" onchange="change_picture()">
+        <option value="Start">Start</option>
+        <option value="LeBron">Lebron James</option>
+        <option value="Kobe">Kobe Bryant</option>
+        <option value="Nowitzki">Dirk Nowitzki</option>
+    </select>
+    <button type="submit" class="submit" onclick="Testy()">Bild Wechseln</button>
+
+<picture class="Bild"  >
+    <table class="Stats" id="Stats">
+        <tr>
+            <th>Titel</th>
+            <th>Wann</th>
+            <th>Spielstand</th>
+        </tr>
+        <tr id="LeBron">
+            <td>World Championship</td>
+            <td>21034</td>
+            <td>74 Zu 29</td>
+        </tr>
+        <tr id="Kobe">
+            <td>World Championship</td>
+            <td>21034</td>
+            <td>74 Zu 29</td>
+        </tr>
+        <tr id="Nowitzki">
+            <td>World Championship</td>
+            <td>21034</td>
+            <td>74 Zu 29</td>
+        </tr>
+    </table>
+    <img id="Bild" src="../Bilder/BasketBall.png">
+</picture>
+
+</body>
+</html>

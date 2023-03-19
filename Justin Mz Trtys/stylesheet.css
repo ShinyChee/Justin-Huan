@@ -1,0 +1,52 @@
+.navbar{
+    position: absolute;
+    width: 15vw;
+    background-color: dimgrey;
+    height: 98%;
+    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 1vw;
+    left: 0;
+
+}
+
+.btn{
+    font-size: x-large;
+    position: relative;
+    background-color: aqua;
+    border-radius: 1vw;
+    padding: 3px;
+    left: 2vw;
+    width: auto;
+}
+.startseite_btn{
+    top: 1vw;
+}
+.andereseite_btn{
+    top: 6vw;
+}
+.page_reload{
+    top: 80%;
+}
+
+.list{
+    position: absolute;
+    font-size: xx-large;
+    left: 30vw;
+}
+ul{
+    list-style-type: none;
+}
+
+.Bild{
+    position: absolute;
+    left: 40vw;
+    top: 30vw;
+
+}
+.submit{
+    position: absolute;
+    left: 60vw;
+}
+.Stats{
+    visibility: hidden;
+}
